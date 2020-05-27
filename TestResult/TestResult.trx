@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ef32478d-fcbe-4efc-b66c-7d455af80890" name="admin@DESKTOP-BU9I9QE 2020-05-27 12:20:10" runUser="DESKTOP-BU9I9QE\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-05-27T12:20:10.1762253+08:00" queuing="2020-05-27T12:20:10.1762253+08:00" start="2020-05-27T12:20:09.5528248+08:00" finish="2020-05-27T12:20:10.2114212+08:00" />
+  <TestSettings name="default" id="459dc353-146e-458e-81a0-7c9e3c252b3b">
+    <Deployment runDeploymentRoot="admin_DESKTOP-BU9I9QE_2020-05-27_12_20_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="cca65658-a74b-4683-9e62-4a96bdc86fcc" testId="2cf333e2-d230-e25a-ea17-4b79b6debb97" testName="TestMethod2" computerName="DESKTOP-BU9I9QE" duration="00:00:00.0000922" startTime="2020-05-27T12:20:10.1449427+08:00" endTime="2020-05-27T12:20:10.1450349+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cca65658-a74b-4683-9e62-4a96bdc86fcc" />
+    <UnitTestResult executionId="af4d9e3d-23e0-4614-89e4-47f92fe4057e" testId="35c22923-3717-d5ad-6cb7-464cded5392e" testName="TestMethod1" computerName="DESKTOP-BU9I9QE" duration="00:00:00.0002595" startTime="2020-05-27T12:20:10.1399248+08:00" endTime="2020-05-27T12:20:10.1401843+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af4d9e3d-23e0-4614-89e4-47f92fe4057e" />
+    <UnitTestResult executionId="11f2124b-9c68-474b-b945-c76d17e8df3a" testId="892d796d-24e2-7b4d-be2f-a0dc262a8818" testName="TestMethod4" computerName="DESKTOP-BU9I9QE" duration="00:00:00.0000875" startTime="2020-05-27T12:20:10.1459091+08:00" endTime="2020-05-27T12:20:10.1459966+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f2124b-9c68-474b-b945-c76d17e8df3a" />
+    <UnitTestResult executionId="644c4e15-0048-483d-aa62-6f55d0c6ad27" testId="4b3ef994-e783-2d94-b1f9-1d3515f5f220" testName="TestMethod3" computerName="DESKTOP-BU9I9QE" duration="00:00:00.0000882" startTime="2020-05-27T12:20:10.1459091+08:00" endTime="2020-05-27T12:20:10.1459973+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="644c4e15-0048-483d-aa62-6f55d0c6ad27" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\测试程序\vs\c\unittest\debug\unittest1.dll" id="35c22923-3717-d5ad-6cb7-464cded5392e">
+      <Execution id="af4d9e3d-23e0-4614-89e4-47f92fe4057e" />
+      <TestMethod codeBase="D:\测试程序\VS\C\UnitTest\Debug\UnitTest1.dll" adapterTypeName="executor://cppunittestexecutor/v1" className="UnitTest1.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="d:\测试程序\vs\c\unittest\debug\unittest1.dll" id="4b3ef994-e783-2d94-b1f9-1d3515f5f220">
+      <Execution id="644c4e15-0048-483d-aa62-6f55d0c6ad27" />
+      <TestMethod codeBase="D:\测试程序\VS\C\UnitTest\Debug\UnitTest1.dll" adapterTypeName="executor://cppunittestexecutor/v1" className="UnitTest1.UnitTest1" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="d:\测试程序\vs\c\unittest\debug\unittest1.dll" id="892d796d-24e2-7b4d-be2f-a0dc262a8818">
+      <Execution id="11f2124b-9c68-474b-b945-c76d17e8df3a" />
+      <TestMethod codeBase="D:\测试程序\VS\C\UnitTest\Debug\UnitTest1.dll" adapterTypeName="executor://cppunittestexecutor/v1" className="UnitTest1.UnitTest1" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="d:\测试程序\vs\c\unittest\debug\unittest1.dll" id="2cf333e2-d230-e25a-ea17-4b79b6debb97">
+      <Execution id="cca65658-a74b-4683-9e62-4a96bdc86fcc" />
+      <TestMethod codeBase="D:\测试程序\VS\C\UnitTest\Debug\UnitTest1.dll" adapterTypeName="executor://cppunittestexecutor/v1" className="UnitTest1.UnitTest1" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2cf333e2-d230-e25a-ea17-4b79b6debb97" executionId="cca65658-a74b-4683-9e62-4a96bdc86fcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35c22923-3717-d5ad-6cb7-464cded5392e" executionId="af4d9e3d-23e0-4614-89e4-47f92fe4057e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="892d796d-24e2-7b4d-be2f-a0dc262a8818" executionId="11f2124b-9c68-474b-b945-c76d17e8df3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b3ef994-e783-2d94-b1f9-1d3515f5f220" executionId="644c4e15-0048-483d-aa62-6f55d0c6ad27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
